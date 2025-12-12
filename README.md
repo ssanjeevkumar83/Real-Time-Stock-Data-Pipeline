@@ -6,7 +6,6 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
 
 ---
 
@@ -69,7 +68,6 @@ real-time-stocks-pipeline/
 3. Run the Python producer to fetch live stock data  
 4. Data flows into Snowflake → DBT applies transformations  
 5. Orchestrate everything with Airflow  
-6. Connect Power BI for visualization  
 
 ---
 
