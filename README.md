@@ -14,9 +14,8 @@
 This project demonstrates an **end-to-end real-time data pipeline** using the **Modern Data Stack**.  
 We capture **live stock market data** from an external API, stream it in real time, orchestrate transformations, and deliver analytics-ready insights — all in one unified project.
 
-![Architecture (1)](https://github.com/user-attachments/assets/6b49eb4d-4bf7-473d-9281-50c20b241760)
-
-
+---
+![Stock market project architecture](https://github.com/user-attachments/assets/18dbd13d-ad5a-4019-96c8-f66038c4c80e)
 ---
 
 ## ⚡ Tech Stack
@@ -26,7 +25,6 @@ We capture **live stock market data** from an external API, stream it in real ti
 - **Apache Kafka** → Real-time Streaming  
 - **Python** → Data Fetching & API Integration  
 - **Docker** → Containerization  
-- **Power BI** → Data Visualization  
 
 ---
 
@@ -36,7 +34,6 @@ We capture **live stock market data** from an external API, stream it in real ti
 - Orchestrated ETL workflow using **Airflow**  
 - Transformations using **DBT** inside Snowflake  
 - Scalable cloud warehouse powered by **Snowflake**  
-- Analytics-ready **Power BI dashboards**  
 
 ---
 
