@@ -123,17 +123,6 @@ real-time-stocks-pipeline/
   - [**Bronze models**](dbt_stocks/models/bronze/bronze_stg_stock_quotes.sql) → raw structured data  
   - [**Silver models**](dbt_stocks/models/silver/silver_clean_stock_quotes.sql) → cleaned, validated data  
   - [**Gold models**](dbt_stocks/models/gold) → analytical views (Candlestick, KPI, Tree Map)
-      
-
----
-
-### **7. Power BI Dashboard**
-- Connected **Power BI** to Snowflake (Gold layer) using **Direct Query**.
-- Built:
-  - **Candlestick chart** → stock market patterns  
-  - **Tree chart** → stock price trends  
-  - **gauge charts** → stock volume & total sales breakdown  
-  - **KPI's** → real-time sortable view  
 
 ---
 
@@ -141,13 +130,7 @@ real-time-stocks-pipeline/
 - **Automated real-time data pipeline**  
 - **Snowflake tables (Bronze → Silver → Gold)**  
 - **Transformed analytics models with DBT**  
-- **Orchestrated DAGs in Airflow**  
-- **Power BI dashboard with live insights**  
+- **Orchestrated DAGs in Airflow**    
 
 ---
 
-**Author**: *Jaya Chandra Kadiveti* 
-
-**LinkedIn**: [username](https://www.linkedin.com/in/jayachandrakadiveti/) 
-
-**Contact**: [datawithjay1@gmail.com](mailto:datawithjay1@gmail.com)
